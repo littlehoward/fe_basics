@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formular</title>
+	</head>
+
+	<body>
+
+		<form name="frmpodaci" method="get" action="/action.php">
+		<fieldset>
+			<legend> Personalne informacije:</legend>
+			Ime:<br>
+			<input type="text" name="ime" placeholder="Ime">
+			<br>
+			Prezime:<br>
+			<input type="text" name="prezime" placeholder="Prezime">
+			<br>
+			Email:<br>
+			<input type="email" name="email" placeholder="Email" required>
+			<br>
+			Datum pocetka obuke: <input type="date">
+			<br>
+			Broj pohadanih kurseva (izmedu 0 i 20):<br>
+			<input type="number" name="brkurseva" min="0" max="20">
+			<br>
+			Odaberite naziv kursa:<br>
+			<select name="tipkursa">
+			<option value="c#" selected>C3</option>
+			<option value="webdesign">Web dizajn</option>
+			<option value="zadecu">Napredna škola programiranja za decu</option>
+			<option value="java">Java</option>
+			</select>
+			<br>
+			Da li vam se dopada kurs: <input type="radio" name="odgovor" value="da" checked>Da <input type="radio" name="odgovor" value="ne">Ne
+			<br>
+			Pomozite nam da unapredimo kurs koji pohadate:<br>
+			<textarea name="komentar" rows="4" cols="50" placeholder="Unesite komentar..."></textarea>
+			<br>
+			<br>
+			<input type="submit" value="Potvrdi">
+		</fieldset>
+		</form>
+
+
+	</body>
+
+</html>

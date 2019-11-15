@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: black;
+    background-color: lightgrey;
+    background-image: url(../images/bcg_slika2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p {
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 2.0em;
+}
+.naslov {
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    color: black;
+}
+.glNaslov {
+    font-size: 60px;
+    font-weight: 700;
+}
+.mNaslov {
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    text-transform: none;
+    font-weight: 700;
+    margin: 50px 0;
+}
+#glNaslov {
+    color: yellow;
+    background-color: white;
+    padding: 30px 0;
+}

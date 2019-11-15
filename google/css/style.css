@@ -1,0 +1,198 @@
+html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGACIJA */
+
+.navul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0 20px;
+    height: 50px;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+}
+
+.navul a {
+    padding: 20px 10px;
+    text-decoration: none;
+    color: #0d0d0d;
+
+}
+
+.navul a:hover {
+    text-decoration: underline;
+    color: #404040;
+}
+li {
+    display: inline;
+}
+
+#fas a {
+    font-size: 1.3em;
+    color: #666666;
+}
+
+#fas a:hover {
+    color: #333333;
+}
+
+#signin a {
+    background-color: dodgerblue;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+#signin a:hover {
+    text-decoration: none;
+}
+
+/* KRAJ NAVIGACIJE */
+
+/* GLAVNI DEO */
+
+.main {
+    padding: 110px 0 0 0;
+    display: block;
+    text-align: center;
+}
+
+/* SEARCH FORM */
+
+.searchinput {
+    position: relative;
+    width: 560px;
+    margin: 20px auto 30px auto;
+}
+.search {
+    line-height: 20px;
+    padding: 10px 40px;
+    border-color: #d9d9d9;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    background-color: #ffffff;
+    background-image: url(../images/magnifying-glass.png);
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+.search:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px 0px #cccccc;
+}
+
+.search:hover {
+    box-shadow: 0px 0px 5px 0px #cccccc;
+}
+
+#searchmic {
+    position: absolute;
+    color: cadetblue;
+    font-size: 1.2em;
+    top: 10px;
+    right: -20px;
+}
+
+.searchbutton {
+    border: 0;
+    padding: 10px 15px;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+    margin: 0 5px;
+    color: #696969;
+}
+
+.searchbutton:hover {
+    border: 1px solid #DCDCDC;
+}
+
+.offered {
+    margin: 30px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+}
+
+.offered a {
+    text-decoration: none;
+}
+
+.offered a:hover {
+    text-decoration: underline;
+}
+
+.footerfixed {
+    width: 100%;
+    height: 80px;
+    background-color: #F5F5F5;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    border-top: 2px solid #E8E8E8;
+}
+
+.fSerbia {
+    width: auto;
+    display: block;
+    font-size: 0.9em;
+    line-height: 20px;
+    padding: 10px 30px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.fAdv {
+    display: inline-block;
+    float: left;
+}
+.fPrivacy {
+    float: right;
+}
+
+.footerul {
+    list-style-type: none;
+    padding: 0px 20px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    line-height: 12px;
+}
+
+.footerul a {
+    padding: 20px 10px;
+    text-decoration: none;
+    color: #696969;
+
+}
+
+.footerul a:hover {
+    text-decoration: underline;
+    color: #404040;
+}
+
+.footerul2 {
+    list-style-type: none;
+    padding: 0px 20px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    line-height: 12px;
+}
+
+.footerul2 a {
+    padding: 20px 10px;
+    text-decoration: none;
+    color: #696969;
+
+}
+
+.footerul2 a:hover {
+    text-decoration: underline;
+    color: #404040;
+}
