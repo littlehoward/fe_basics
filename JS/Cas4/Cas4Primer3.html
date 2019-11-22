@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Čas 4 Primer 3</title>
+  <script>
+    var prozor;
+
+    function zatvori() {
+      prozor.close();
+    }
+
+    function otvori() {
+      prozor = window.open("Cas4Prozor.html", "prvi", "width=800,height=600");
+      //setTimeout('zatvori()', 5000);
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Čas 4 Primer 3 - Metoda WINDOW.CLOSE() </h1>
+  <br>
+  <input type="button" name="pisi" value="Otvori" onClick="otvori()">
+  <input type="button" name="pisi" value="Zatvori" onClick="zatvori()"> </body>
+
+</html>

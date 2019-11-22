@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Čas 5 Primer 1</title>
+ <!-- da li možemo i ovde da stavimo script tag ? -->
+    <script>
+function prikaziTekst() {
+    var tekstZaPrikaz = document.getElementById("tekst").innerHTML;
+    alert(tekstZaPrikaz);
+}
+</script>
+</head>
+<body>
+<h1>Čas 5 Primer 1 - document.getElementById</h1>
+
+
+<p id="tekst">Ovaj tekst treba da se prikaže u pop-up ekranu</p>
+
+<input type="button" value="Prikaži tekst iz p elementa" onclick="prikaziTekst()">
+
+
+</body>
+</html>

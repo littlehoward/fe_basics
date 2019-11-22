@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Praktican deo</title>
+<script>
+
+//    4 zadatak
+
+    var prozor;
+
+    function otvori(){
+    prozor = window.open('reklama.html', '_blank', 'width=320,height=250');
+    }
+
+    function zatvori(){
+        prozor.close();
+    }
+
+
+
+
+    </script>
+
+
+</head>
+<body>
+<h1>Praktican deo JavaScript</h1>
+
+<h3>Unesite podatke za rezervaciju</h3>
+  <form>
+     <label for="ime">Ime</label>
+     <input id="ime" name="ime"> <br>
+
+     <label for="prezime">Prezime</label>
+     <input id="prezime" name="prezime"><br>
+
+     <label for="adresa">Adresa</label>
+     <input id="adresa" name="adresa"><br>
+
+     <label for="telefon">Telefon</label>
+     <input id="telefon" name="telefon"><br>
+
+     <label for="rezervacija">Rezervacija</label><br>
+     <textarea id="rezervacija" name="rezervacija" cols="50" rows="7"></textarea><br>
+
+     <input type="button" value="Obrisi">
+     <input type="button" value="Pošalji">
+     <input type="button" value="Štampaj">
+     <input type="button" value="Kontakt podaci">
+  </form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Čas 5 Primer 4</title>
+
+</head>
+<body>
+<h1>Čas 5 Primer 4 - document.getElementsByClassName </h1>
+
+<div class="prvi">Želim da se ovaj tekst pojavi još jednom</div>
+<div class="drugi"></div>
+<div class="drugi">Ovde ne želim da se prikaže ništa</div>
+
+<input type="button" value="Prikaži tekst iz prvog div elementa u drugi div" onclick="prikaziUDrugiDiv()">
+<script>
+
+function prikaziUDrugiDiv() {
+    var tekstZaPrikaz = document.getElementsByClassName("prvi")[0];
+
+    if (tekstZaPrikaz.getAttribute("class")==="prvi"){
+      document.getElementsByClassName("drugi")[0].innerHTML = tekstZaPrikaz.innerHTML;
+    }
+
+    tekstZaPrikaz.style.color = "red";
+    tekstZaPrikaz.style.fontSize="20px";
+}
+</script>
+
+
+</body>
+</html>

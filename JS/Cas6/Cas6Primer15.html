@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Čas 6 Primer 15</title>
+    <script>
+        function koji(){
+            if(document.all){
+                alert("u pitanju je Internet Explorer 8");
+            }
+
+            if(document.layers){
+                alert("U pitanju je Netscape");
+            }
+
+            if(document.getElementById && !document.all){
+                alert("U pitanju je Netscape 6, Opera, Chrome,Firefox");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1> Čas 6 Primer 15 - Koja je verzija browsera u pitanju?</h1>
+    <form name="formular">
+        <input type="button" value="Klik" onclick="koji()">
+    </form>
+</body>
+</html>

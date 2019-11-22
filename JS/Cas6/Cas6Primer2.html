@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Čas 6 Primer 2</title>
+  <script>
+    //parseFloat parsira string i vraca broj sa decimalnim zarezom
+    //odredjuje da li je prvi karakter broj, i parsira ga do  kraja broja
+    //parseFloat vraca samo prvi broj,ako je prvi karakter string
+    //i ne moze se prevesti u number tada vraca NaN
+    var a = parseFloat("10") + " ";
+    var b = parseFloat("10.00") + " ";
+    var c = parseFloat("10.33") + " ";
+    var d = parseFloat("34 45 66") + " ";
+    var e = parseFloat("   60   ") + " ";
+    var f = parseFloat("40 kvadrata") + " ";
+    var g = parseFloat("Stan ima 40 kvadrata") + " ";
+    var n = a + b + c + d + e + f + g;
+    //alert(n);
+
+    //parseInt
+    var a = parseInt("10") + " ";
+    var b = parseInt("10.00") + " ";
+    var c = parseInt("10.75") + " ";
+    var d = parseInt("34 45 66") + " ";
+    var e = parseInt(" 60 ") + " ";
+    var f = parseInt("40 kvadrata") + " ";
+    var g = parseInt("Stan ima 40 kvadrata") + " ";
+    var h = parseInt("010") + " ";
+    var n1 = a + b + c + d + e + f + g + h;
+    alert(n1);
+     // alert(h);
+
+  </script>
+</head>
+
+<body>
+  <h1>Čas 6 Primer 2 - PARSEFLOAT i PARSEINTEGER</h1> </body>
+
+</html>
