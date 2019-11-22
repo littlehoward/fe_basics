@@ -11,7 +11,7 @@ function ispisiIme(){
 }
 
 
-//funkcija sa parametrom 
+//funkcija sa parametrom
 function ispisiImeSaPar(ime){
   alert("Moje ime je "+ ime);
 }

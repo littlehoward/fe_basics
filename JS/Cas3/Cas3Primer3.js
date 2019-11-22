@@ -1,4 +1,4 @@
-//globalna promenljiva 
+//globalna promenljiva
 var ime = "Pera";
 
 function ispisiIme(){
