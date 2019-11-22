@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Čas 4 Primer 6</title>
+    <script>
+        //Prikaz velicine ekrana
+        function velicinaEkrana() {
+            var s = window.innerWidth;
+            var v = window.innerHeight;
+            var os = window.outerWidth;
+            var ov = window.outerHeight;
+            alert("Širina unutrasnjeg ekrana je " + s + " a visina 	unutrasnjeg ekrana je " + v + " dok je sirina spolnjeg ekrana " + os + " a visina spoljneg ekrana " + ov);
+        };
+        //Prikazi ime prozora
+        function otvoriProzor() {
+            var prozor = window.open("", "MojProzor", "width = 200, height = 100");
+            //Pišemo nešto teksta u novom prozoru
+            prozor.document.write("<p>Ime ovog prozora je: " + prozor.name + "</p>");
+            //Pišemo nešto teksta u prozoru koji je napravio novi prozor
+            prozor.opener.document.write("<p>Ovo je izvorni prozor</p>");
+        };
+        //Prikaz closed osobine objekta Window
+        var mojProzor;
+
+        function otvori() {
+            mojProzor = window.open("", "MojProzor2", "width=400, height=200");
+        }
+
+        function zatvori() {
+            if (mojProzor) {
+                mojProzor.close();
+            }
+        }
+
+        function proveri() {
+            if (!mojProzor) {
+                alert("'mojProzor' nikada nije bio otvoren!");
+            }
+            else {
+                if (mojProzor.closed) {
+                    alert("'mojProzor' je zatvoren!");
+                }
+                else {
+                    alert("'mojProzor' je  otvoren!");
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Čas 4 Primer 6 - Pregled osobina objekta Window</h1>
+    <input type="button" value="Veličina ekrana" onclick="velicinaEkrana()">
+    <br>
+    <br>
+    <input type="button" value="Otvori prozor" onclick="otvoriProzor()">
+    <br>
+    <br>
+    <button onclick="otvori()">Otvori "mojProzor"</button>
+    <br>
+    <br>
+    <button onclick="zatvori()">Zatvori "mojProzor"</button>
+    <br>
+    <br>
+    <button onclick="proveri()">Proveri status "mojProzor"</button>
+    <br>
+    <br>
+    <div id="msg"></div>
+</body>
+
+</html>

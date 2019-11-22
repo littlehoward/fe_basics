@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Čas 5 Primer 5</title>
+</head>
+<body>
+<h1>Čas 5 Primer 5 - document.querySelectorAll() </h1>
+
+<div class="prvi">Želim da se ovaj tekst pojavi još jednom</div>
+<div class="drugi"></div>
+<div class="drugi">Ovde ne želim da se prikaže ništa</div>
+
+<input type="button" value="Prikaži tekst iz prvog div elementa u drugi div" onclick="prikaziUDrugiDiv()">
+
+ <script>
+function prikaziUDrugiDiv() {
+    var tekstZaPrikaz = document.querySelector(".prvi");
+
+    if (tekstZaPrikaz.getAttribute("class")==="prvi"){
+      document.querySelectorAll(".drugi")[0].innerHTML = tekstZaPrikaz.innerHTML;
+    }
+    tekstZaPrikaz.setAttribute("style","color:red");
+}
+</script>
+</body>
+</html>

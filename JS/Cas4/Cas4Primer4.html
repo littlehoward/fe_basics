@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <title>Čas 4 Primer 4</title>
+  <script>
+    //prompt metod
+    function unesiVrednost() {
+      var unetaVrednost = prompt("Unesite zeljenu vrednost", 'sss');
+      alert("Uneli ste sledecu vrednost : " + unetaVrednost);
+    }
+    //print metod - stampaj stranicu
+    function stampaj() {
+      window.print();
+    }
+    //resizeTo
+    var mojProzor;
+
+    function otvori() {
+      mojProzor = window.open("", "", "width=100, 	height=100");
+    }
+
+    function promeniVel() {
+      mojProzor.resizeTo(250, 250);
+      mojProzor.focus();
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Čas 4 Primer 4 - Metoda PROMPT,PRINT,RESIZETO 	objekta WINDOW</h1>
+  <br> <a href="#" onMouseOver="unesiVrednost();"> Unesi 	automatski vrednost</a>
+  <br>
+  <br>
+  <input type="button" value="Štampaj stranicu" onclick="stampaj();">
+  <br>
+  <br>
+  <input type="button" value="Otvori prozor" onclick="otvori()">
+  <br>
+  <br>
+  <input type="button" value="Promeni veličinu" onclick="promeniVel()"> </body>
+
+</html>

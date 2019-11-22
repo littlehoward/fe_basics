@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Čas 4 Primer 5</title>
+<script>
+  function status(){
+    var x = window.confirm("Da li ste sigurni da zelite da napustite ovu stranu");
+    //alert(x);
+    if(x){ //moze i if(x===true)
+     window.close(); //u IE radi, ne radi u Chrome, u Firefoxu radi ako se u about:config podesi dom.allow_scripts_to_close_windows na true
+    }
+  }
+</script>
+</head>
+<body>
+ <h1>Čas 4 Primer 5 - Metoda PROMPT objekta WINDOW</h1>
+ <br>
+ <a href="#" onClick="status();">Klikni</a>
+</body>
+</html>
