@@ -1,0 +1,185 @@
+/* style_1.css */
+
+html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/bkg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 890px;
+    height: 100%;
+    position: relative;
+    margin: 10px auto 0px auto;
+    padding: 20px 20px 5px 20px;
+    background-color: black;
+
+}
+
+.headline {
+    display: inline-block;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: orange;
+    width: 80%;
+    position: absolute;
+    padding: 10px 0px;
+}
+
+.contact {
+    display: block;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 12px;
+    color: white;
+    width: 20%;
+    text-align: right;
+    position: relative;
+}
+
+.header_img {
+    clear: both;
+    display: block;
+    position: relative;
+}
+
+.header_img img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: white;
+    background-color: #333;
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 20px;
+    margin: 0;
+    line-height: 25px;
+    overflow: hidden;
+}
+.navbar li {
+    display: inline;
+    padding: 0px 38px 0px 0px;
+}
+
+.navbar_kontakt a {
+    float: right;
+    padding-right: 20px;
+}
+
+.main {
+    width: 650px;
+    margin: 50px 0px 0px 5px;
+    /*float: left;*/
+}
+
+.vozila {
+    border: 1px solid orange;
+    margin-bottom: 20px;
+}
+
+.vozila h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    line-height: 18px;
+    color: white;
+}
+
+.table {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: white;
+    border: 1px solid orange;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: orange;
+    line-height: 25px;
+    text-align: center;
+}
+
+.table td {
+    line-height: 25px;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid orange;
+    border-collapse: collapse;
+}
+
+.vozila p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: white;
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+.vozila img {
+    float: left;
+    margin-right: 10px;
+}
+
+iframe {
+    margin: 0px auto 15px auto;
+    display: block;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    position: relative;
+    margin: 0px auto 20px auto;
+    padding: 2px 20px 20px 20px;
+    width: 890px;
+    height: 25px;
+}
+
+footer h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: white;
+}
+
+aside {
+    /*float: right;*/
+    width: 210px;
+    margin: 35px 0px 0px 0px;
+    text-align: center;
+}
+
+aside h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: white;
+}
