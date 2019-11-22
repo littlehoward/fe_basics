@@ -1,7 +1,4 @@
-var prviBroj = a;
-var drugiBroj = b;
-
-function racunaj {
+function racunaj (prviBroj, drugiBroj) {
     var treciBroj = c;
     var rezultat = (a + b) * treciBroj;
     document.write (racunaj);
