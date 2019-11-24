@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+h3 {
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 12px;
+}
+
+.button{
+    background-color: #F5F5F5;
+    border: 1px solid #D0D0D0;
+    padding: 5px 20px;
+}
+
+.button:hover{
+    background-color: #D0D0D0;
+    border-color: #C0C0C0;
+}
+
+.container{
+    position: relative;
+    margin: 20px auto;
+    width: 560px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: black;
+}
+
+.naslov {
+    background-color: #585858;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px 20px;
+}
+
+.naslov h1 {
+    display: inline;
+    font-size: 2.0em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.naslov #vreme {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    color: white;
+    float: right;
+    padding: 15px 0px;
+}
+
+.zadatak2{
+    display: block;
+    overflow: auto;
+    background-color: white;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.zadatak2_levo{
+    float: left;
+    display: inline-block;
+    width: 380px;
+    line-height: 30px;
+}
+
+.zadatak2_desno{
+    float: right;
+    width: 110px;
+    margin-top: 8px;
+    background-color: #A9A9A9;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: inherit;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.zadatak_ostali{
+    display: block;
+    overflow: auto;
+    background-color: white;
+    border: 1px solid #E8E8E8;
+    margin: 10px 0px;
+    padding: 10px 20px;
+}
+
+.zadatak_ostali tr{
+    line-height: 30px;
+}
+
+.reklama{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: black;
+    text-align: center;
+}
+

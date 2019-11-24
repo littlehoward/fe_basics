@@ -3,10 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>JS vežba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
     <script src="zadatak-js/script.js"></script>
 </head>
 <body>
+    <div class="container">
 
+<!-- ZADATAK BROJ 9 -->
+     <div class="naslov">
+         <h1>Praktičan rad</h1>
+         <span id="vreme"></span>
+     </div>
+
+<!-- ZADATAK BROJ 2 -->
+      <div class="zadatak2">
+           <h3>Zadatak broj 2</h3>
+              <div class="zadatak2_levo">
+               <form name="forma1">
+                  <table>
+                      <tr>
+                          <td>Unesite prvi broj:</td>
+                          <td><input type="text" name="input1" placeholder="Unesite ceo broj" size="30"></td>
+                      </tr>
+                      <tr>
+                          <td>Unesite drugi broj:</td>
+                          <td><input type="text" name="input2" placeholder="Unesite ceo broj" size="30"></td>
+                      </tr>
+                      <tr>
+                          <td colspan="2">
+                              <input type="button" class="button" value="Izračunaj" onClick="racunaj()">
+                              <input type="reset" class="button" value="Obriši">
+                              </td>
+                      </tr>
+                  </table>
+               </form>
+           </div>
+           <div class="zadatak2_desno">
+                <h2><span>?</span></h2>
+           </div>
+       </div>
+
+<!-- ZADATAK BROJ 4 -->
+
+       <div class="zadatak_ostali">
+           <h3>Zadatak broj 4</h3>
+           <p>Klikni na dugme pored da ti se otvori reklama:&nbsp;
+           <button class="button" name="otovorireklamu" onClick="otvoriReklamu()">Otvori</button>
+           </p>
+       </div>
+
+<!-- ZADATAK BROJ 5 -->
+
+       <div class="zadatak_ostali">
+           <h3>Zadatak broj 5</h3>
+           <p>Klikni na dugme pored da ti se otvori reklama:&nbsp;
+           <button class="button" name="otovorireklamu1" onClick="otvoriReklamu1()">Otvori</button></p>
+           <i>NAPOMENA: Prozor će se automatski zatvoriti nakon 6 sekundi.</i>
+       </div>
+
+<!-- ZADATAK BROJ 6 -->
+      <div class="zadatak_ostali">
+           <h3>Zadatak broj 6 i 7</h3>
+               <form name="forma2">
+                  <table>
+                      <tr>
+                          <td>Upišite Vaše ime:</td>
+                          <td><input type="text" name="ime" size="25" required></td>
+                          <td id="praznoPoljeIme"></td>
+                      </tr>
+                      <tr>
+                          <td>Upišite Vaše prezime:</td>
+                          <td><input type="text" name="prezime" size="25" required></td>
+                          <td id="praznoPoljePrezime"></td>
+                      </tr>
+                      <tr>
+                          <td colspan="2">
+                              <input type="submit" class="button" value="Pošalji" onClick="proveri()">
+                              <input type="reset" class="button" value="Obriši">
+                              </td>
+                      </tr>
+                  </table>
+               </form>
+       </div>
+       <div class="zadatak_ostali">
+           <h3>Zadatak broj 8</h3>
+               <p>Klikni na dugme pored i videćeš šta će se desiti:&nbsp;
+           <button class="button" name="obojipozadinu" onClick="obojiPozadinu()">Klikni (ako smeš)</button></p>
+       </div>
+
+<!-- ZADATAK BROJ 10 -->
+
+       <div class="zadatak_ostali">
+           <h3>Zadatak broj 10 - BONUS!!!</h3>
+           <p>Klikni na dugme pored da ti se u konzoli izlista sve što je u input poljima:<br><br>
+           <button class="button" name="izlistaj" onClick="stampaInputPolja()">Štampaj</button>
+           </p>
+       </div>
+
+
+    </div>
 
 
 </body>
