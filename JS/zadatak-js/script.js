@@ -122,11 +122,11 @@ function trenutnoVreme() {
 // ZADATAK BROJ 10
 
 function stampaInputPolja(){
-    var inputPolja = document.getElementsByTagName("input").value;
-    var lista = "";
+    var inputPolja = document.getElementsByTagName("input");
+    //var lista = "";
 
     for (i=0; i<inputPolja.length; i++) {
-        lista = lista + inputPolja[i] + ", ";
-        console.log(lista);
+        //lista = lista + inputPolja[i] + ", ";
+        console.log(inputPolja[i].value);
     }
 }
