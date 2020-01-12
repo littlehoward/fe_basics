@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Primer CDN-a -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+  <!-- Sta ako je CDN ndeostupan ? -->
+  <script>
+    window.jQuery || document.write('<script src="jquery-1.12.4.js"><\/script>')
+  </script>
+  <!--script type="text/javascript" src="jquery-3.1.0.js"></script-->
+  <!--script type="text/javascript" src="jquery-1.12.4.js"</script-->
+  <script>
+     //izvršava se kada se cela stranica učita uključujuči sve
+     //frejmove, objekte i slike
+     //window.onload = function(){
+      //alert('Window loaded');
+    // };
+   
+     //izvršava se kada se HTML dokument učita i kada je DOM spreman
+     //jQuery(document).ready
+    $(document).ready(function(){
+      // alert('DOM loaded');
+       $('#mojId').html("Zdravo svima !");
+     });
+    
+  </script>
+  <title> Uvod u JQuery</title>
+</head>
+<body>
+ Moj jQuery je u funckciji!<br/>
+  <img src="ns.jpg" alt="Novi Sad"/>
+  <div id="mojId">
+      Moj div
+  </div>
+  
+</body>
+</html>

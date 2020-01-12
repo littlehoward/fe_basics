@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>JQuery SlideToggle</title>
+  <style type="text/css">
+    #panel,
+    #padajuci {
+      width: 120px;
+      padding: 5px;
+      text-align: center;
+      background-color: #e5eecc;
+      border: solid 1px #c3c3c3;
+    }
+
+    #panel {
+      width: 120px;
+      padding: 50px;
+      display: none;
+    }
+  </style>
+  <script src="jquery-1.12.4.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      //Primer 3 - SlideIn, SlideOut, SlideToggle
+
+      $(document).ready(function () {
+        $("#padajuci").click(function () {
+          $("#panel").slideToggle("slow");
+        });
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+  <h1>JQuery SlideToggle - Efekti i animacije</h1>
+
+  <div id="padajuci">Klikni me za slide</div>
+  <div id="panel">Smart škola</div>
+
+</body>
+
+</html>

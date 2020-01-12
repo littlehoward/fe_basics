@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.12.4.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+
+    $.ajax({
+        url: "https://www.google.rs/", //"https://www.google.rs/",
+        success: function(result){
+            console.log(result);
+      $("#div1").html(result).css("color","red");
+    }});
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="div1"><h2>Naslov stranice</h2></div>
+
+<button>Pošalji podatke</button>
+
+</body>
+</html>

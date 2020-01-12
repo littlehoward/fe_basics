@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vežba JavaScript i jQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+       <h3>Ovo je vežba JavaScript i jQuery</h3>
+       <p>Ovaj tekst će se menjati uz pomoć jQuery-ja i JavaScript-a.</p>
+       <h3>Ovaj naslov se ne menja</h3>
+       <p>Ovaj tekst se NEĆE menjati uz pomoć jQuery-ja i JavaScript-a.</p>
+       <form name="forma1">
+                  <table>
+                      <tr>
+                          <td>Unesite bilo kakav tekst:</td>
+                          <td><input type="text" name="tekst" size="25"></td>
+                          <td><span id="prepis"></span></td>
+                      </tr>
+                      <tr>
+                          <td colspan="2">
+                              <input type="button" class="button" value="Prikaži" onClick="prepisi()">
+                              <input type="reset" class="button" value="Obriši">
+                              </td>
+                      </tr>
+                  </table>
+               </form>
+   </div>
+
+</body>
+</html>
